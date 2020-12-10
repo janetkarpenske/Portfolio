@@ -43,12 +43,7 @@ ul {
   height: 500px;
   object-fit: cover;
 }
-.sub img {
-  margin-top: 20px;
-  width: 500px;
-  height: 680px;
-  object-fit: cover;
-}
+
 .about-me-bg {
 background-color: rgb(27, 37, 41);
 height: 40%;
@@ -73,6 +68,7 @@ position: relative;
 .align-left {
   text-align: left;
   margin-left: 80px;
+  font-size: 40px;
 }
 h2 {
   font-size: 60px;
@@ -88,4 +84,7 @@ a:hover {
   color: rgb(205, 245, 145);
   text-shadow: 3px 3px 8px greenyellow;
   text-decoration: none;
+}
+.green {
+  color: rgb(128, 201, 20);
 }
