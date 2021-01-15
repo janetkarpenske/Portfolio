@@ -2,6 +2,7 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles2.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
@@ -11,67 +12,119 @@
   <title>Janet M. Karpenske</title>
 </head>
 <body>
+  <ul class="navbar">
+    <li><a href="./index.html">home</a></li>
+  </ul>
   <div class="center-align">
-  <div class="row" class="mainPageRow">
-    <h2>projects</h2>
-    <h2 class="align-left">javaScript</h2>
-    <div class="col-md-4">
-      <a href="https://github.com/StollerSystem/Dungeon_Darkly">
-      <h3>Dungeon, Darkly</h3>
-      <img src="img/fantasy.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/giphy-api-practice">
-      <h3>GiphyAPI</h3>
-      <img src="img/Highway.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://janetkarpenske.github.io/pig-latin/">
-      <h3>Pig Latin Translator</h3>
-      <img src="img/aesthetic.jpg"></a>
-    </div>
+    <div class="projPage">
+      <br><br><h2>project portfolio</h2><br>
+<!-- Add list of links that scroll the page to the correct section -->
+<h2 class="align-left green">react</h2>
+<div class="row">
+  <h3>pictaverse</h3>
+  <div class="col-md-4">
+    <h4><img src="./img/pictaverse.png"></h4>
   </div>
-
-  <div class="row" class="mainPageRow">
-    <h2 class="align-left">react</h2>
-    <div class="col-md-4">
-      <a href="#">
-      <h3>Pictaverse (Coming Soon!)</h3>
-      <img src="img/fern.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/react-tap-room-2">
-      <h3>Fiona's Tap House</h3>
-      <img src="img/tavern.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/react-farmers-market">
-      <h3>Farmer's Market</h3>
-      <img src="img/market.jpg"></a>
-    </div>
+  <div class="col-md-4">
+    <h4 class="projAbout"><em>December 2020 Capstone Project for Epicodus.</em><br><br> Pictaverse is a social-media app that essentially serves as a user-driven travel-guide. Users are able to create "mini blog posts" and upload photos based around their travels, and from there give advice, recommendations, or general tips for others who may be interested in traveling there.<br><br><em>React, Redux, Node, Google Map, Google Geocode</em></h4>
   </div>
-
-  <div class="row" class="mainPageRow">
-    <h2 class="align-left">C# & SQL</h2>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/C-AnimalShelterAPI">
-      <h3>Animal Shelter API</h3>
-      <img src="img/cat.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/C-Bakery-Many-To-Many">
-      <h3>Pierre's Bakery</h3>
-      <img src="img/croissant.jpg"></a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/janetkarpenske/NumbersToWords-CSharp">
-      <h3>Numerical Expansion</h3>
-      <img src="img/cityStreet.jpg"></a>
-    </div>
+  <div class="col-md-4">
+    <br>
+    <h4><a href="https://github.com/janetkarpenske/react-pictaverse-3">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
   </div>
+</div>
+<div class="row">
+  <h3>fiona's tap house</h3>
+  <div class="col-md-4">
+    <h4><video width="550" height="350" autoplay loop>
+      <source src="./img/fiona's-pub.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video></h4>
+  </div>
+  <div class="col-md-4">
+    <h4 class="projAbout">Fiona's Tap House is a React app that allows the user to manage their inventory as the owner of a restaurant. This project has full CRUD (create, read, update, delete) functionality - the user may add new items to the menu and track their quantities.<br><br><em>React, Redux, Node, Firestore</em></h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/janetkarpenske/react-tap-room-2">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
+  </div>
+</div>
 
+<h2 class="align-left green">javascript</h2>
+<div class="row">
+  <h3>dungeon, darkly</h3>
+  <div class="col-md-4">
+    <h4><video width="550" height="350" autoplay loop>
+      <source src="./img/dungeon_darkly_capture.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video></h4>
+  </div>
+  <div class="col-md-4">
+    <h4 class="projAbout">Dungeon, Darkly is a text-based adventure game inspired by the classic old-school dungeon crawlers. Players can pick a character class, battle monsters, loot corpses, and inspect their surroundings as the navigate the sPoOky halls of Ravenhurst Manor.<br><br><em>JavaScript, Node.js, JQuery</em></h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/StollerSystem/Dungeon_Darkly">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
+  </div>
+</div>
+<div class="row">
+  <h3>pig latin</h3>
+  <div class="col-md-4">
+    <h4><img src="./img/pigLatin.png"></h4>
+  </div>
+  <div class="col-md-4">
+    <h4 class="projAbout">Pig Latin is exactly what it sounds like! Enter a sentence into the form field and have it translated into Pig Latin.<br><br><em>JavaScript, Node.js, JQuery</em></h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/janetkarpenske/pig-latin">github repository</a></h4><br>
+    <h4><a href="https://janetkarpenske.github.io/pig-latin/">View Site</a></h4>
+  </div>
+</div>
+<div class="row">
+  <h3>supergalactic age calculator</h3>
+  <div class="col-md-4">
+    <h4><img src="./img/solar-years.png"></h4>
+  </div>
+  <div class="col-md-4">
+    <h4 class="projAbout">This Intergalactic Age Calculator uses an api to convert a person's age in Earth years into their respective Mars, Venus, Jupiter, Saturn ages.</h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/janetkarpenske/solar-years">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
+  </div>
+</div>
 
-
+<h2 class="align-left green">C# & SQL</h2>
+<div class="row">
+  <h3>Numerical Expansion</h3>
+  <div class="col-md-4">
+    <h4>img</h4>
+  </div>
+  <div class="col-md-4">
+    <h4>About</h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/janetkarpenske/react-pictaverse-3">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
+  </div>
+</div>
+<div class="row">
+  <h3>Animal Shelter API</h3>
+  <div class="col-md-4">
+    <h4>img</h4>
+  </div>
+  <div class="col-md-4">
+    <h4>About</h4>
+  </div>
+  <div class="col-md-4">
+    <h4><a href="https://github.com/janetkarpenske/C-AnimalShelterAPI">github repository</a></h4><br>
+    <h4>Active Site: This site is not yet deployed.</h4>
+  </div>
+</div>
+</div>
   </div>
 
 </body>
